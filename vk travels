@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VK Travels</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1502877338535-766e1452684a') center/cover;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 40px;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .contact {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>VK Travels</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Safe & Reliable School Cab Service<br>Since 2008</h2>
+</div>
+
+<div class="section" id="about">
+  <h2>About Us</h2>
+  <p>VK Travels has been providing safe and reliable school cab services since 2008. We ensure timely pick-up and drop with experienced drivers and secure vehicles.</p>
+</div>
+
+<div class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>School Pickup</h3>
+      <p>Safe morning pickup from home to school.</p>
+    </div>
+    <div class="card">
+      <h3>School Drop</h3>
+      <p>Secure drop back home after school.</p>
+    </div>
+    <div class="card">
+      <h3>GPS Tracking</h3>
+      <p>Live tracking for parents' peace of mind.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact">
+    <p><strong>Phone:</strong> 9818050767</p>
+    <p><strong>Phone:</strong> 9899270767</p>
+    <p><strong>Phone:</strong> 8810412354</p>
+    <p><strong>Email:</strong> vktravels@gmail.com</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 VK Travels | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
